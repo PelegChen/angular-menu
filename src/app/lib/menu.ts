@@ -426,20 +426,4 @@ type FocusType =
   | FocusNothing
   | FocusSpecific;
 
-@NgModule({
-  imports: [],
-  exports: [
-    MenuDirective,
-    MenuButtonDirective,
-    MenuItemsPanelDirective,
-    MenuItemDirective,
-  ],
-  declarations: [
-    MenuDirective,
-    MenuButtonDirective,
-    MenuItemsPanelDirective,
-    MenuItemDirective,
-  ],
-  providers: [],
-})
-export class MenuModule {}
+ 
