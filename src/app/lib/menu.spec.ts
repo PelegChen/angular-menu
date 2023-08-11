@@ -10,7 +10,7 @@ import {
   tick,
 } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
-import { resetIdCounter } from '../util';
+import { resetIdCounter } from '../menu-demo/util';
 import {
   MenuButtonDirective,
   MenuDirective,

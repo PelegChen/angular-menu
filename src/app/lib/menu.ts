@@ -10,7 +10,7 @@ import {
   TemplateRef,
   ViewContainerRef,
 } from '@angular/core';
-import { generateId } from '../util';
+import { generateId } from '../menu-demo/util';
 
 /// MENU - Spec: https://www.w3.org/TR/wai-aria-practices-1.2/#menubutton
 
