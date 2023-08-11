@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
 
 @Component({
-  selector: 'menu-demo',
+  selector: 'app-styled-menu',
   animations: [
     trigger('toggleAnimation', [
       transition(':enter', [
@@ -16,24 +16,4 @@ import { animate, style, transition, trigger } from '@angular/animations';
   ],
   templateUrl: 'menu-demo.component.html',
 })
-export class MenuDemoComponent {
-  people: Person[] = [
-    { id: 1, name: 'Durward Reynolds', unavailable: false },
-    { id: 2, name: 'Kenton Towne', unavailable: false },
-    { id: 3, name: 'Therese Wunsch', unavailable: false },
-    { id: 4, name: 'Benedict Kessler', unavailable: true },
-    { id: 5, name: 'Katelyn Rohan', unavailable: false },
-  ];
-
-  selectedPerson: Person | null = this.people[0];
-
-  setSelectedPerson(person: Person | null) {
-    this.selectedPerson = person;
-  }
-}
-
-interface Person {
-  id: number;
-  name: string;
-  unavailable: boolean;
-}
+export class MenuDemoComponent {}
