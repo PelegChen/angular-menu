@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { animate, style, transition, trigger } from '@angular/animations';
 
 @Component({
-  selector: 'app-styled-menu',
+  selector: 'menu-demo',
   animations: [
     trigger('toggleAnimation', [
       transition(':enter', [
